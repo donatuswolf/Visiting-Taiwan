@@ -129,7 +129,7 @@ window.onload = function () {
 
                 map = d3.scale.linear()
                 .domain([min, max])
-                .range([50, 100]),
+                .range([30, 100]),
 
                 d = {
                     cluster: i,
